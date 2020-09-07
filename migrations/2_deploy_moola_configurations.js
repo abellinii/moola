@@ -1,5 +1,5 @@
 let AddressStorage = artifacts.require("AddressStorage")
-let LendingPoolAddressProvider = artifacts.require("LendingPoolAddressProvider")
+let LendingPoolAddressProvider = artifacts.require("LendingPoolAddressesProvider")
 let LendingPoolParametersProvider = artifacts.require("LendingPoolParametersProvider")
 let UintStorage = artifacts.require("UintStorage")
 

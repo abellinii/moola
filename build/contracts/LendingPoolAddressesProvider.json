@@ -12878,9 +12878,212 @@
     "name": "solc",
     "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "1599499318234": {
+      "events": {
+        "0x1941c4aa9ef07ed299ed253b4224020832574525e8db1f3f955c57f395aef829": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "newAddress",
+              "type": "address"
+            }
+          ],
+          "name": "EthereumAddressUpdated",
+          "type": "event"
+        },
+        "0x18e1a55b8eff9c93921eecfa1462d6a8cbb80b3988db3eb14c039e43fdb22661": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "newAddress",
+              "type": "address"
+            }
+          ],
+          "name": "FeeProviderUpdated",
+          "type": "event"
+        },
+        "0xdfabe479bad36782fb1e77fbfddd4e382671713527e4786cfc93a022ae763729": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "newAddress",
+              "type": "address"
+            }
+          ],
+          "name": "LendingPoolConfiguratorUpdated",
+          "type": "event"
+        },
+        "0x71c226bb2879778ca1298196bf7cc1256baee9d05b496c31ee627d35a471b5b7": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "newAddress",
+              "type": "address"
+            }
+          ],
+          "name": "LendingPoolCoreUpdated",
+          "type": "event"
+        },
+        "0x07890d7d10db37434d76ee4f2928fb2dc66227c3b3391206aced4f7bcb59cdb0": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "newAddress",
+              "type": "address"
+            }
+          ],
+          "name": "LendingPoolDataProviderUpdated",
+          "type": "event"
+        },
+        "0x1a76cb769b814bc038223da86932b099b20aae03473683e6d98f5c3554e26064": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "newAddress",
+              "type": "address"
+            }
+          ],
+          "name": "LendingPoolLiquidationManagerUpdated",
+          "type": "event"
+        },
+        "0xd5280c51185a38d36f7a0f5e56cac6248312bb70d0974782fa5a595127e0e08e": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "newAddress",
+              "type": "address"
+            }
+          ],
+          "name": "LendingPoolManagerUpdated",
+          "type": "event"
+        },
+        "0xce16ea9b2fd7cadddd0f7359971028f50b5ddba33dfae1a9bdea956fabb1e280": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "newAddress",
+              "type": "address"
+            }
+          ],
+          "name": "LendingPoolParametersProviderUpdated",
+          "type": "event"
+        },
+        "0xc4e6c6cdf28d0edbd8bcf071d724d33cc2e7a30be7d06443925656e9cb492aa4": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "newAddress",
+              "type": "address"
+            }
+          ],
+          "name": "LendingPoolUpdated",
+          "type": "event"
+        },
+        "0x5c29179aba6942020a8a2d38f65de02fb6b7f784e7f049ed3a3cab97621859b5": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "newAddress",
+              "type": "address"
+            }
+          ],
+          "name": "LendingRateOracleUpdated",
+          "type": "event"
+        },
+        "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "previousOwner",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "newOwner",
+              "type": "address"
+            }
+          ],
+          "name": "OwnershipTransferred",
+          "type": "event"
+        },
+        "0xefe8ab924ca486283a79dc604baa67add51afb82af1db8ac386ebbba643cdffd": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "newAddress",
+              "type": "address"
+            }
+          ],
+          "name": "PriceOracleUpdated",
+          "type": "event"
+        },
+        "0x1eb35cb4b5bbb23d152f3b4016a5a46c37a07ae930ed0956aba951e231142438": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "bytes32",
+              "name": "id",
+              "type": "bytes32"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "newAddress",
+              "type": "address"
+            }
+          ],
+          "name": "ProxyCreated",
+          "type": "event"
+        },
+        "0xa8b48a56ec01f81c3615a21ec43e16b925c26293e0801cf6330427f2a687f053": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "newAddress",
+              "type": "address"
+            }
+          ],
+          "name": "TokenDistributorUpdated",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0xa950BC061cA06A121A7608c496a82a856208F690",
+      "transactionHash": "0xcd93bdda419dcacf107d68ef7e398c5157e37d886f75d1af95301c2f6e165c04"
+    }
+  },
   "schemaVersion": "3.2.3",
-  "updatedAt": "2020-09-02T23:28:41.791Z",
+  "updatedAt": "2020-09-07T17:33:37.260Z",
+  "networkType": "ethereum",
   "devdoc": {
     "author": "Aave*",
     "methods": {
