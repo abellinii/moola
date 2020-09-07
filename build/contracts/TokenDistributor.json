@@ -13978,9 +13978,125 @@
     "name": "solc",
     "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "1599499318234": {
+      "events": {
+        "0xb90306ad06b2a6ff86ddc9327db583062895ef6540e62dc50add009db5b356eb": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "amount",
+              "type": "uint256"
+            }
+          ],
+          "name": "Burn",
+          "type": "event"
+        },
+        "0x60ce3cc2d133631eac66a476f14997a9fa682bd05a60dd993cf02285822d78d8": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "receiver",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "percentage",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "amount",
+              "type": "uint256"
+            }
+          ],
+          "name": "Distributed",
+          "type": "event"
+        },
+        "0xdc9f439f707945ade720b0154668dd64af0689fb88b40abdb0f0289156d23e9d": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "address[]",
+              "name": "receivers",
+              "type": "address[]"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256[]",
+              "name": "percentages",
+              "type": "uint256[]"
+            }
+          ],
+          "name": "DistributionUpdated",
+          "type": "event"
+        },
+        "0x99566d155bc7902033d8db6b0f091f12209d9651abdae3aad004632bd3e657b5": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "tokenToBurn",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "kyberProxy",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "_recipientBurn",
+              "type": "address"
+            }
+          ],
+          "name": "Setup",
+          "type": "event"
+        },
+        "0xc6c64663abd604372f6cce5d7fa31596ffb4de182467cd1fc81bd8adb88c2c2e": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "from",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "fromAmount",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "toAmount",
+              "type": "uint256"
+            }
+          ],
+          "name": "Trade",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0xD947fd755F0873Fc0337Cd5560b097bb67a828d1",
+      "transactionHash": "0x1bbb66ca6dfaddf04ce008b837e38597d3eff1f7df429c65a52a0d0d9f8fbfa7"
+    }
+  },
   "schemaVersion": "3.2.3",
-  "updatedAt": "2020-09-02T23:28:41.796Z",
+  "updatedAt": "2020-09-07T17:33:37.837Z",
+  "networkType": "ethereum",
   "devdoc": {
     "author": "Aave",
     "methods": {
