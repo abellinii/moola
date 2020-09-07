@@ -1,0 +1,308 @@
+{
+  "contractName": "IERC20DetailedBytes",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "decimals",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "name",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "symbol",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"decimals\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"name\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"symbol\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/thepassivetrust/testing/moola/contracts/misc/IERC20DetailedBytes.sol\":\"IERC20DetailedBytes\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/thepassivetrust/testing/moola/contracts/misc/IERC20DetailedBytes.sol\":{\"keccak256\":\"0x31d93e6e180a8e8cba665d26104031225ccad966cdc2fb5639bd66cfaeb95697\",\"urls\":[\"bzz-raw://6a57f36c8f3051f980bd0cc7820068bb2733791227c34abdbff83a46f0d32d81\",\"dweb:/ipfs/QmcF5QJG9CnX3PdYBMuzUCxXkc3tzPK9PFqvZxNwjY4ZT4\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5060dc8061001f6000396000f3fe6080604052348015600f57600080fd5b5060043610603c5760003560e01c806306fdde03146041578063313ce56714605d57806395d89b41146079575b600080fd5b60476095565b6040518082815260200191505060405180910390f35b6063609b565b6040518082815260200191505060405180910390f35b607f60a1565b6040518082815260200191505060405180910390f35b60005481565b60025481565b6001548156fea265627a7a723158205eb7f348df9c861a6b76556609b80001b7c897f0005b2bd5d2921f99e5e74a6864736f6c63430005100032",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b5060043610603c5760003560e01c806306fdde03146041578063313ce56714605d57806395d89b41146079575b600080fd5b60476095565b6040518082815260200191505060405180910390f35b6063609b565b6040518082815260200191505060405180910390f35b607f60a1565b6040518082815260200191505060405180910390f35b60005481565b60025481565b6001548156fea265627a7a723158205eb7f348df9c861a6b76556609b80001b7c897f0005b2bd5d2921f99e5e74a6864736f6c63430005100032",
+  "sourceMap": "25:119:36:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;25:119:36;;;;;;;",
+  "deployedSourceMap": "25:119:36:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;25:119:36;;;;;;;;;;;;;;;;;;;;;;;;;;;;;60:21;;;:::i;:::-;;;;;;;;;;;;;;;;;;;116:25;;;:::i;:::-;;;;;;;;;;;;;;;;;;;87:23;;;:::i;:::-;;;;;;;;;;;;;;;;;;;60:21;;;;:::o;116:25::-;;;;:::o;87:23::-;;;;:::o",
+  "source": "pragma solidity ^0.5.0;\n\ncontract IERC20DetailedBytes {\n    bytes32  public  name;\n    bytes32  public  symbol;\n    uint256  public  decimals;\n}\n",
+  "sourcePath": "/Users/thepassivetrust/testing/moola/contracts/misc/IERC20DetailedBytes.sol",
+  "ast": {
+    "absolutePath": "/Users/thepassivetrust/testing/moola/contracts/misc/IERC20DetailedBytes.sol",
+    "exportedSymbols": {
+      "IERC20DetailedBytes": [
+        11371
+      ]
+    },
+    "id": 11372,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 11364,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:36"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 11371,
+        "linearizedBaseContracts": [
+          11371
+        ],
+        "name": "IERC20DetailedBytes",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 11366,
+            "name": "name",
+            "nodeType": "VariableDeclaration",
+            "scope": 11371,
+            "src": "60:21:36",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_bytes32",
+              "typeString": "bytes32"
+            },
+            "typeName": {
+              "id": 11365,
+              "name": "bytes32",
+              "nodeType": "ElementaryTypeName",
+              "src": "60:7:36",
+              "typeDescriptions": {
+                "typeIdentifier": "t_bytes32",
+                "typeString": "bytes32"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 11368,
+            "name": "symbol",
+            "nodeType": "VariableDeclaration",
+            "scope": 11371,
+            "src": "87:23:36",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_bytes32",
+              "typeString": "bytes32"
+            },
+            "typeName": {
+              "id": 11367,
+              "name": "bytes32",
+              "nodeType": "ElementaryTypeName",
+              "src": "87:7:36",
+              "typeDescriptions": {
+                "typeIdentifier": "t_bytes32",
+                "typeString": "bytes32"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 11370,
+            "name": "decimals",
+            "nodeType": "VariableDeclaration",
+            "scope": 11371,
+            "src": "116:25:36",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 11369,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "116:7:36",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 11372,
+        "src": "25:119:36"
+      }
+    ],
+    "src": "0:145:36"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/thepassivetrust/testing/moola/contracts/misc/IERC20DetailedBytes.sol",
+    "exportedSymbols": {
+      "IERC20DetailedBytes": [
+        11371
+      ]
+    },
+    "id": 11372,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 11364,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:36"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 11371,
+        "linearizedBaseContracts": [
+          11371
+        ],
+        "name": "IERC20DetailedBytes",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 11366,
+            "name": "name",
+            "nodeType": "VariableDeclaration",
+            "scope": 11371,
+            "src": "60:21:36",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_bytes32",
+              "typeString": "bytes32"
+            },
+            "typeName": {
+              "id": 11365,
+              "name": "bytes32",
+              "nodeType": "ElementaryTypeName",
+              "src": "60:7:36",
+              "typeDescriptions": {
+                "typeIdentifier": "t_bytes32",
+                "typeString": "bytes32"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 11368,
+            "name": "symbol",
+            "nodeType": "VariableDeclaration",
+            "scope": 11371,
+            "src": "87:23:36",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_bytes32",
+              "typeString": "bytes32"
+            },
+            "typeName": {
+              "id": 11367,
+              "name": "bytes32",
+              "nodeType": "ElementaryTypeName",
+              "src": "87:7:36",
+              "typeDescriptions": {
+                "typeIdentifier": "t_bytes32",
+                "typeString": "bytes32"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 11370,
+            "name": "decimals",
+            "nodeType": "VariableDeclaration",
+            "scope": 11371,
+            "src": "116:25:36",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 11369,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "116:7:36",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 11372,
+        "src": "25:119:36"
+      }
+    ],
+    "src": "0:145:36"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.2.3",
+  "updatedAt": "2020-09-02T23:28:41.915Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
